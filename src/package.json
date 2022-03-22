@@ -1,0 +1,26 @@
+{
+  "name": "to-do-list",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@atlaskit/checkbox": "^12.3.9",
+    "@atlaskit/inline-edit": "^12.1.9",
+    "@atlaskit/modal-dialog": "^12.2.5",
+    "@atlaskit/textarea": "^4.3.1",
+    "babel": "^6.23.0",
+    "emotion": "^11.0.0",
+    "next": "12.1.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "eslint": "8.11.0",
+    "eslint-config-next": "12.1.0"
+  }
+}
