@@ -57,7 +57,9 @@ function useLocalStorageState(key, defaultValue = '') {
 	// Runs on mount
 	useLayoutEffect(() => {
 		const newValue = JSON.parse(window.localStorage.getItem(key))
-		setState(newValue);
+		if (newValue !== null) {
+			setState(newValue);
+		}
 	}, [key]);
 	// Runs when the state is changed
 	useLayoutEffect(() => {
