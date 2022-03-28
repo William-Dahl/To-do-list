@@ -1,6 +1,7 @@
 import TrashIcon from '@atlaskit/icon/glyph/trash'
 import { Checkbox } from '@atlaskit/checkbox';
 import Button from '@atlaskit/button';
+import { N500 } from "@atlaskit/theme/colors";
 import {
     gridSize as getGridSize,
 } from '@atlaskit/theme/constants';
@@ -23,6 +24,7 @@ const TaskItem = (props) => {
 	return (
 		<div 
 			style={{padding: '10px 0px 10px 0px', display: 'flex', alignItems: 'center', minHeight: '32px'}}
+            data-testid={props.testId}
 			onMouseEnter={showButton} onMouseLeave={hideButton}
 		>
 			<div style={{
@@ -39,6 +41,7 @@ const TaskItem = (props) => {
 						'color.text.disabled',
 						N500
 					) : 'none'}}
+                    testId={props.testId && `${props.testId}--Checkbox`}
 				/>
 			</div>
 			{isHovering && <Button 
@@ -46,6 +49,7 @@ const TaskItem = (props) => {
 				spacing='none'
 				style={{textAlign: 'left', padding: gridSize, borderRadius: '12px',}}
 				iconBefore={<TrashIcon label="Trash icon" size="small"/>}
+                testId={props.testId && `${props.testId}--RemoveButton`}
 			/>
 			}
 		</div>

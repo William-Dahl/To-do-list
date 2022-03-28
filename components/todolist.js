@@ -1,7 +1,7 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
 import { css, jsx } from '@emotion/core';
-import { N50A, N40A, N0, N500 } from "@atlaskit/theme/colors";
+import { N50A, N40A, N0 } from "@atlaskit/theme/colors";
 import { token } from "@atlaskit/tokens";
 import {
     gridSize as getGridSize,

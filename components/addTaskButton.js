@@ -7,6 +7,7 @@ const AddTaskButton = (props) => {
 			shouldFitContainer
 			onClick={props.onClick}
 			style={{textAlign: 'left', marginTop: `8px`}}
+            testId={props.testId}
 		>
 			<div style={{display: 'inline-block', paddingRight: '10px'}}>
 				<AddIcon label="Add icon" size="small"/>
