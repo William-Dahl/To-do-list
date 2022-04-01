@@ -52,6 +52,19 @@
     "@babel/runtime" "^7.0.0"
     "@emotion/core" "^10.0.9"
 
+"@atlaskit/button@^16.2.1":
+  version "16.2.1"
+  resolved "https://packages.atlassian.com/api/npm/npm-remote/@atlaskit/button/-/button-16.2.1.tgz#4874f53064a904f04b88875e3a3df132edbde0b6"
+  integrity sha512-RpOVXzY6WoQCjdDFz2D2xCVOee6tntWGrkbXcQkg6rrYxmCSWev4Zd9GEWJlbWY+MZpbirK9vxTvJdZzQ3X7rQ==
+  dependencies:
+    "@atlaskit/analytics-next" "^8.2.0"
+    "@atlaskit/ds-lib" "^1.4.0"
+    "@atlaskit/spinner" "^15.1.0"
+    "@atlaskit/theme" "^12.1.0"
+    "@atlaskit/tokens" "^0.8.0"
+    "@babel/runtime" "^7.0.0"
+    "@emotion/core" "^10.0.9"
+
 "@atlaskit/checkbox@^12.3.10":
   version "12.3.10"
   resolved "https://packages.atlassian.com/api/npm/npm-remote/@atlaskit/checkbox/-/checkbox-12.3.10.tgz"

@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@atlaskit/button": "^16.2.1",
     "@atlaskit/checkbox": "^12.3.10",
     "@atlaskit/inline-edit": "^12.1.10",
     "@atlaskit/modal-dialog": "^12.2.5",

@@ -49,7 +49,7 @@ const TaskItemCreationModal = (props) => {
 					<ModalBody>
 						<Field id="name" name="name" label="Type the task name to continue" isRequired>
 						{({ fieldProps }) => (
-							<Fragment>
+							<>
 							<Textfield
 								autoComplete='off'
 								{...fieldProps}
@@ -58,7 +58,7 @@ const TaskItemCreationModal = (props) => {
 							<HelperMessage>
 								{name ? `Hello, ${name}` : ''}
 							</HelperMessage>
-							</Fragment>
+							</>
 						)}
 						</Field>
 					</ModalBody>
